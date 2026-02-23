@@ -1,0 +1,98 @@
+[
+  {
+    "id": "template-1",
+    "name": "Building Inspection Report",
+    "description": "Standard building inspection report for residential properties",
+    "blocks": [
+      {
+        "id": "block-1",
+        "type": "text",
+        "label": "Property Address",
+        "settings": {
+          "required": true,
+          "minLength": 5,
+          "maxLength": 200,
+          "placeholder": "Enter the full property address"
+        }
+      },
+      {
+        "id": "block-2",
+        "type": "text",
+        "label": "Inspector Name",
+        "settings": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100,
+          "placeholder": "Enter inspector name"
+        }
+      },
+      {
+        "id": "block-3",
+        "type": "options",
+        "label": "Inspection Type",
+        "settings": {
+          "required": true,
+          "options": [
+            "Routine",
+            "Follow-up",
+            "Pre-purchase",
+            "Compliance",
+            "Insurance"
+          ],
+          "allowMultiple": false
+        }
+      },
+      {
+        "id": "block-4",
+        "type": "number",
+        "label": "Overall Condition Rating",
+        "settings": {
+          "required": true,
+          "maxDecimalPlaces": 2
+        }
+      },
+      {
+        "id": "block-5",
+        "type": "unit",
+        "label": "Ambient Temperature",
+        "settings": {
+          "required": false,
+          "units": [
+            "°C",
+            "°F"
+          ],
+          "defaultUnit": "°C"
+        }
+      },
+      {
+        "id": "block-6",
+        "type": "options",
+        "label": "Areas Inspected",
+        "settings": {
+          "required": true,
+          "options": [
+            "Foundation",
+            "Roofing",
+            "Electrical",
+            "Plumbing",
+            "HVAC",
+            "Exterior"
+          ],
+          "allowMultiple": true
+        }
+      },
+      {
+        "id": "block-7",
+        "type": "text",
+        "label": "Findings & Recommendations",
+        "settings": {
+          "required": false,
+          "maxLength": 1000,
+          "placeholder": "Describe key findings and recommendations..."
+        }
+      }
+    ],
+    "createdAt": "2024-01-15T09:00:00.000Z",
+    "updatedAt": "2026-03-05T14:53:11.575Z"
+  }
+]

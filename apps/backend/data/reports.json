@@ -1,0 +1,89 @@
+[
+  {
+    "id": "c52e19c3-d248-4592-a2aa-b99586321633",
+    "templateId": "template-1",
+    "templateName": "Patient Assessment",
+    "values": {
+      "block-4": {
+        "value": "83",
+        "unit": "kg"
+      },
+      "block-1": "Sami",
+      "block-2": "24",
+      "block-3": "Initial"
+    },
+    "createdAt": "2026-02-23T13:07:23.168Z"
+  },
+  {
+    "id": "2b7f8bcd-3810-440d-bffa-8fe4913c8021",
+    "templateId": "template-1",
+    "templateName": "Patient Assessment",
+    "values": {
+      "block-4": {
+        "value": "2",
+        "unit": "kg"
+      },
+      "block-2": "24",
+      "block-1": "sa",
+      "block-3": "Discharge"
+    },
+    "createdAt": "2026-02-23T13:07:44.890Z"
+  },
+  {
+    "id": "cf4579ad-902a-4de0-931b-20f0a7532031",
+    "templateId": "template-1",
+    "templateName": "Building Inspection Report",
+    "values": {
+      "block-5": {
+        "value": "34",
+        "unit": "°C"
+      },
+      "block-6": [
+        "Foundation"
+      ],
+      "block-3": "Pre-purchase",
+      "block-4": "2",
+      "block-2": "sa",
+      "block-1": "aagaha"
+    },
+    "createdAt": "2026-02-23T13:21:28.010Z"
+  },
+  {
+    "id": "732d07ac-b3d2-4598-8241-4042e1887478",
+    "templateId": "template-1",
+    "templateName": "Building Inspection Report",
+    "values": {
+      "block-5": {
+        "value": "",
+        "unit": "°C"
+      },
+      "block-4": "1241",
+      "block-3": "Follow-up",
+      "block-2": "asfs",
+      "block-1": "agsagag",
+      "block-6": [
+        "Foundation"
+      ]
+    },
+    "createdAt": "2026-03-05T14:34:15.588Z"
+  },
+  {
+    "id": "9036f7c8-938b-4bcd-8ea9-b185b68dfd99",
+    "templateId": "template-1",
+    "templateName": "Building Inspection Report",
+    "values": {
+      "block-5": {
+        "value": "21",
+        "unit": "°C"
+      },
+      "block-1": "asdgsaga",
+      "block-2": "adg",
+      "block-3": "Follow-up",
+      "block-4": "2.42",
+      "block-6": [
+        "Foundation"
+      ]
+    },
+    "createdAt": "2026-03-05T14:53:33.078Z"
+  }
+]
