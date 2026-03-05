@@ -2,7 +2,7 @@
   "name": "scope-interview-task",
   "private": true,
   "scripts": {
-    "dev": "pnpm build:shared && concurrently \"pnpm dev:shared\" \"pnpm dev:backend\" \"pnpm dev:web\"",
+    "dev": "lsof -ti:3000,3001 | xargs kill -9 2>/dev/null; pnpm build:shared && concurrently \"pnpm dev:shared\" \"pnpm dev:backend\" \"pnpm dev:web\"",
     "dev:web": "pnpm --filter web dev",
     "dev:backend": "pnpm --filter backend dev",
     "dev:shared": "pnpm --filter @scope/shared dev",
