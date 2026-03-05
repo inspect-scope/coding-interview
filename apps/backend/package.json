@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nest start --watch",
+    "dev": "node --watch --watch-path=src --watch-path=../../packages/shared/dist -r reflect-metadata -r ts-node/register src/main.ts",
     "build": "nest build",
     "start": "nest start"
   },
@@ -20,6 +20,7 @@
     "@nestjs/schematics": "^10.1.0",
     "@types/node": "^20.11.0",
     "@types/uuid": "^9.0.7",
+    "nodemon": "^3.1.14",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"

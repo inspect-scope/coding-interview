@@ -1,10 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { createTemplate, deleteTemplate, getTemplates } from '@/lib/api';
 import { Template } from '@scope/shared';
-import { getTemplates, createTemplate, deleteTemplate } from '@/lib/api';
-import { cn } from '@/lib/utils';
+import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
 export default function HomePage() {
   const router = useRouter();

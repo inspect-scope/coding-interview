@@ -1,15 +1,15 @@
 import {
+  BadRequestException,
+  Body,
   Controller,
+  Delete,
   Get,
+  Param,
   Post,
   Put,
-  Delete,
-  Param,
-  Body,
-  BadRequestException,
 } from '@nestjs/common';
-import { TemplatesService } from './templates.service';
 import { Template } from '@scope/shared';
+import { TemplatesService } from './templates.service';
 import { validateReport } from './validation';
 
 @Controller('templates')

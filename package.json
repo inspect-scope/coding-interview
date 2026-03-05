@@ -2,9 +2,10 @@
   "name": "scope-interview-task",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"pnpm dev:backend\" \"pnpm dev:web\"",
+    "dev": "pnpm build:shared && concurrently \"pnpm dev:shared\" \"pnpm dev:backend\" \"pnpm dev:web\"",
     "dev:web": "pnpm --filter web dev",
     "dev:backend": "pnpm --filter backend dev",
+    "dev:shared": "pnpm --filter @scope/shared dev",
     "build:shared": "pnpm --filter @scope/shared build"
   },
   "devDependencies": {
